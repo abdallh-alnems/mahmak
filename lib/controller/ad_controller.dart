@@ -8,7 +8,7 @@ class AdController extends GetxController {
 
   @override
   void onInit() {
-    super.onInit();
+    super.onInit(); 
     initBannerAd();
   }
 

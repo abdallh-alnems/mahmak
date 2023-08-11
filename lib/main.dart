@@ -4,9 +4,9 @@ import 'package:provider/provider.dart';
 import 'package:to_do_list/controller/ad_controller.dart';
 import 'package:to_do_list/controller/animation_controller.dart';
 import 'package:to_do_list/controller/data_controller.dart';
-import 'package:to_do_list/pages/home_page.dart';
 import 'package:to_do_list/provider/menu_item_provider.dart';
 import 'package:to_do_list/provider/theme_provider.dart';
+import 'package:to_do_list/widget/splash_screen.dart';
 
 void main() {
   runApp(MultiProvider(
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       themeMode: themeProvider.themeMode,
       darkTheme: MyTheme.darkTheme,
       theme: MyTheme.lightTheme,
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }

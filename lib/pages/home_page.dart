@@ -203,7 +203,7 @@ class _HomePageState extends State<HomePage> {
                               autofocus: true,
                               decoration: const InputDecoration(
                                   border: InputBorder.none,
-                                  hintText: 'اكتب هنا',
+                                  hintText: 'اكتب مهامك',
                                   hintStyle: TextStyle(
                                       fontFamily: 'Vazirmatn',
                                       fontWeight: FontWeight.w500,

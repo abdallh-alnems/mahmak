@@ -21,20 +21,14 @@ child: ListView(
 children: [
 Padding(
 padding: EdgeInsets.only(
-top: MediaQuery.of(context).size.height * 0.15)),
+top: MediaQuery.of(context).size.height * 0.25)),
 Container(
 padding: EdgeInsets.only(
 left: MediaQuery.of(context).size.width * 0.06),
 child: Column(
 crossAxisAlignment: CrossAxisAlignment.start,
 children: [
-const CircleAvatar(
-backgroundImage: AssetImage("assets/images/foto.jpg"),
-radius: 40,
-),
-const SizedBox(
-height: 15,
-),
+
 SizedBox(
 width: MediaQuery.of(context).size.width * 0.5,
 child: const Text('NiMs',
